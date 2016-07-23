@@ -29,7 +29,6 @@ describe('javaScript', function () {
         var itemB;
     });
 
-
     it('named function expression', function () {
         var functionExpression = function functionHiddenDeclaration(param1) {
             function innerFunction() {
@@ -49,6 +48,18 @@ describe('javaScript', function () {
         expect(function(){ functionHiddenDeclaration(0) }).toThrow();
     });
 
+    it('named function expression - hoisting', function () {
+        var itemA = f1();
+        var itemB = itemC;
+        expect(itemA === 1).toBeTruthy();
+        expect(itemB === undefined).toBeTruthy();
+        function f1() {
+            return 1;
+        };
+        var itemC = function () {
+            return f1();
+        };
+    });
 
     it('IIFE', function () {
         var itemA = 1;
@@ -81,19 +92,6 @@ describe('javaScript', function () {
         };
         expect(function(){ itemA }).toThrow();
         expect(itemB === 1).toBeTruthy();
-    });
-
-    it('hoisting', function () {
-        var itemA = f1();
-        var itemB = itemC;
-        expect(itemA === 1).toBeTruthy();
-        expect(itemB === undefined).toBeTruthy();
-        function f1() {
-            return 1;
-        };
-        var itemC = function () {
-            return f1();
-        };
     });
 
 
