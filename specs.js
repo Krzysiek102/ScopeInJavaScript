@@ -45,6 +45,7 @@ describe('javaScript', function () {
         }
         //expect(functionExpression(2) === ).toBeTruthy();
         //expect(functionHiddenDeclaration(2) === ).toBeTruthy();
+        //expect(innerFunction() === ).toBeTruthy();
     });
 
     it('named function expression - hoisting', function () {
