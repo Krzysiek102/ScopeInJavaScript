@@ -1,15 +1,12 @@
 # AdvancedJavaScript
-Source cod for presentation titled "Zaawansowane techniki w javaScript"
+Materials for presentation "Scope w JavaScript – pułapki dla osób przechodzących z innych języków"
 
-Steps done to setup environment:
+How to set it up:
 install node from https://nodejs.org/en/download/
-npm init
 
 npm install -g bower
-bower init
 
-npm isntall -g tsd
-tsd init
+npm install -g tsd
 
-bower install jasmine --save-dev
-tsd install jasmine --save
+bower install
+tsd install
