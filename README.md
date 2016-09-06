@@ -1,5 +1,5 @@
 # AdvancedJavaScript
-Materials for presentation "Scope w JavaScript – pułapki dla osób przechodzących z innych języków"
+Materials for presentation "Scope in javaScript– potential traps for people new in javaScript"
 
 How to set it up:
 install node from https://nodejs.org/en/download/
