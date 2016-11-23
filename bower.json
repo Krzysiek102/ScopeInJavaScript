@@ -1,6 +1,6 @@
 {
   "name": "advancedjavascript",
   "devDependencies": {
-    "jasmine-core": "jasmine#^2.4.1"
+    "jasmine-core": "jasmine#^2.5.2"
   }
 }

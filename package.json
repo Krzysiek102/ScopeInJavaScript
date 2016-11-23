@@ -1,6 +1,11 @@
 {
   "name": "advancedjavascript",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krzysiek102/StowPatriot.git"
+  },
+  "license": "MIT",  
   "scripts": {
     "postinstall": "bower install && typings install"
   }  
