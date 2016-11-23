@@ -1,4 +1,4 @@
-/// <reference path="typings/jasmine/jasmine.d.ts" />
+/// <reference path="typings/globals/jasmine/index.d.ts" />
 'use strict';
 
 describe('javaScript', function () {
